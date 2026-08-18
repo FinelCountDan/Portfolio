@@ -15,7 +15,7 @@ body {
 
   }
 .birb{
-              background-image: url("about.gif");
+              background-image: url("https://finel.neocities.org/about.gif");
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
@@ -180,8 +180,9 @@ figure {
     margin: 1rem;
     max-width: 100%;
 	}
-	figure img { 
-	}
+	/*figure img { 
+  
+	}*/
 	figcaption { 
     color: greenyellows;
 		text-align: center;
@@ -204,10 +205,10 @@ figure {
   grid-template-rows: 1fr 1fr 1fr; 
   gap: 5px 5px; 
   grid-template-areas: 
-    "small small 2"
+    "small small2"
     "big big"
     ". ."; 
 }
 .big { grid-area: big; }
 .small { grid-area: small; }
-.small 2 { grid-area: small 2; }
+.small2 { grid-area: small 2; }
