@@ -15,7 +15,7 @@ body {
 
   }
 .birb{
-              background-image: url("https://finel.neocities.org/about.gif");
+              background-image: url("../about.gif");
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
